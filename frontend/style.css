@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.raccoon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.raccoon-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.raccoon-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.raccoon-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.raccoon-card p {
+    font-size: 0.9em;
+    color: #555;
+}
