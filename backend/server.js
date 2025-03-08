@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const raccoonRoutes = require('./routes/raccoons');
 
-const app = express();
+const app = express(); 
 const PORT = process.env.PORT || 5000;
 
 // Middleware
