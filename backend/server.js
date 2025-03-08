@@ -22,3 +22,12 @@ app.use('/api/raccoons', raccoonRoutes);
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+const cloudinary = require('cloudinary').v2;
+
+// Configure Cloudinary
+cloudinary.config({
+  cloud_name: 'denyzh0lv',
+  api_key: '416522596959239',
+  api_secret: 'XteoFid3PJ7IzGrZmfGPJX_2JWk'
+});
